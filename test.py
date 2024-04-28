@@ -2,7 +2,7 @@
 # print("Hello " + name + "!")
 # print(len(name))
 
-print("Welcome user to the tip calculator.")
+print("Welcome to the tip calculator.")
 bill = int(input("What is the total bill? "))
 people = int(input("How many people to split the bill? "))
 while True:
