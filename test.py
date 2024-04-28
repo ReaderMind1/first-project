@@ -2,7 +2,7 @@
 # print("Hello " + name + "!")
 # print(len(name))
 
-print("Welcome to the tip calculator.")
+print("Welcome user to the tip calculator.")
 bill = int(input("What is the total bill? "))
 people = int(input("How many people to split the bill? "))
 while True:
@@ -14,6 +14,7 @@ split_bill = "{:.2f}".format(split_bill)                #will always show upto 2
 print("Each person should pay: " + str(split_bill))
 
 ###from ascii.co/art
+print("\n\nHidden door")
 print("""
 88888888888888888888888888888888888888888888888888888888888888888888888
 88.._|      | `-.  | `.  -_-_ _-_  _-  _- -_ -  .'|   |.'|     |  _..88
